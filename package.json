@@ -1,0 +1,28 @@
+{
+  "name": "mocha-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "Per Nilsson <per@sproutlab.com>",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.0.0",
+    "karma": "^0.12.37",
+    "karma-mocha": "^0.2.0",
+    "karma-osx-reporter": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-spec-reporter": "0.0.19",
+    "karma-webpack": "^1.5.1",
+    "mocha": "^2.2.5",
+    "node-libs-browser": "^0.5.2",
+    "phantomjs": "^1.9.17",
+    "webpack": "^1.9.12"
+  },
+  "devDependencies": {
+    "karma-phantomjs-launcher": "^0.2.0",
+    "phantomjs": "^1.9.17"
+  }
+}
